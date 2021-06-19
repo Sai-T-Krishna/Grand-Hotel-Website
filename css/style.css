@@ -16,7 +16,7 @@ body{
 .sidebar{
     width: 8rem;
     height:100%;
-    background-color: lightgray;
+    backdrop-filter: blur(10px);
     position: fixed;
     display: flex;
     flex-direction:column;
@@ -34,7 +34,7 @@ body{
 .line{
     height:0.2rem;
     width: 2.5rem;
-    background-color: #222;
+    background-color: #777;
     margin-bottom: 0.6rem;
 }
 
